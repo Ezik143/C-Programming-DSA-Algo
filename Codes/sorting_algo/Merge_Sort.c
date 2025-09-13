@@ -59,6 +59,7 @@ void merge_sorted(int list[], int L, int midpoint, int R)
     i = 0;
     j = 0;
     k = L;
+    
     while (i < left_length || j < right_length)
     {
         if (i < left_length && (j >= right_length || left_temp[i] <= right_temp[j]))
